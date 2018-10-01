@@ -1,0 +1,18 @@
+.allusers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: cursive;
+}
+.allusers th {
+	background-color: #FFC300;
+	color: #6c007d;
+	border: 2px solid #6c007d;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px 10px;
+}
+.allusers td {
+	text-align: center;
+	padding: 10px 10px;
+}
