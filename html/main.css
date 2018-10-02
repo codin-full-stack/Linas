@@ -2,7 +2,15 @@ body {
 	background-color: #4AA272;
 	padding: 0px;
 	margin: 0px;
-	font-family: serif;
+	font-family: sans-serif;
+}
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
 }
 .login-wrapper {
 	padding: 0px;
@@ -23,11 +31,8 @@ body {
 	background-color: #ffffff;
 	font-weight: bold;
 	font-size: 14px;
-	color: #000000;
+	color: #3d3a3a;
 	padding: 18px 0px 0px 0px;
-}
-.tabs-wrapper a.disabled {
-	background-color: red;
 }
 .form-wrapper {
 	display: flex;
@@ -37,7 +42,8 @@ body {
 }
 .form-wrapper label {
 	font-size: 10px;
-	margin: 0px 40px;
+	margin: 0px 40px 3px;
+	color: #3d3a3a;
 }
 .form-wrapper input {
 	font-size: 10px;
@@ -51,6 +57,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+.register-wrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .signin-wrapper a {
 	font-size: 12px;
 	color: #9ACECA;
@@ -58,23 +69,23 @@ body {
 	margin: 10px 0px 0px 40px;
 }
 .signin-wrapper a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
 }
-.signin-wrapper button {
+button {
 	background-color: #4AA272;
 	cursor: pointer;
 	border:none; 
 	width: 108px;
 	height: 41px;
-	color:white;
+	color: white;
 	font-weight: bold;
 	font-size: 12px;
 	margin-right: 25px;
 }
-.signin-wrapper button:hover {
+button:hover {
 opacity: 0.8;
 }
-a.register {
+a.disabled {
 	background-color: #E1E1E1;
 	color: #ffffff;
 }
@@ -85,4 +96,10 @@ a.register {
 }
 .social-wrapper a {
 	text-decoration: none;
+}
+.social-wrapper a:hover {
+	opacity: 0.9;
+}
+img {
+	display: block;
 }
