@@ -10,7 +10,7 @@
 	<header>
 		<div class="header-wrapper">
 			<div class="header-logo">
-				<a href="/avys"><img src="./assets/images/logo.png"></a>
+				<a href="/Linas"><img src="./assets/images/logo.png"></a>
 			</div>
 			<div class="header-login">
 				<form class="header-login-form" method="POST">
@@ -42,7 +42,8 @@
 			<a href="">Tvarkaraštis</a>
 			<a href="">Rezultatai</a>
 			<a href="">Sezonai</a>
-			<a href="http://www.google.lt">Kontaktai</a>
+			<a href="">Kontaktai</a>
+			<a href="posts.php">Postai</a>
 			<a href="allusers.php">Visi užsiregistravę vartotojai</a>
 		</div>
 	</nav>

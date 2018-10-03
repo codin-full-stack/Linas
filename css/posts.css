@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.posts-list {
+	width: 1200px;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+.posts-list a {
+	text-decoration: none;
+}
+.posts-list a:hover {
+	opacity: 0.7;
+} 
+.post-block {
+	background-color: #FFC300;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	width: 270px;
+	height: 415px;
+}
+.post-block:nth-child(4n+1) {
+	width: 570px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.post-description h2 {
+	font-family: monospace;
+	color: #6c007d;
+	margin: 35px 40px;
+	text-align: left;
+	font-size: 16px;
+}
+
+

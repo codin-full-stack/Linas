@@ -8,7 +8,7 @@
 <body>
 	<div class="allusers">
 <?php
-echo '<h2>Registruoti vartotojai:</h2>';
+echo '<h1>Registruoti vartotojai:</h1>';
 
 $sql = "SELECT * FROM useriai";
 $result = mysqli_query($conn, $sql);
