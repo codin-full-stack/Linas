@@ -10,7 +10,7 @@
 	<header>
 		<div class="header-wrapper">
 			<div class="header-logo">
-				<a href="/Linas"><img src="./assets/images/logo.png"></a>
+				<a href="home.php"><img src="./assets/images/logo.png"></a>
 			</div>
 			<div class="header-login">
 				<form class="header-login-form" method="POST">
@@ -43,7 +43,6 @@
 			<a href="">Rezultatai</a>
 			<a href="">Sezonai</a>
 			<a href="">Kontaktai</a>
-			<a href="posts.php">Postai</a>
 			<a href="allusers.php">Visi užsiregistravę vartotojai</a>
 		</div>
 	</nav>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Visi vartotojai</title>
-	<link rel="stylesheet" type="text/css" href="./css/users.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <?php include ('main.php') ?>
 <body>

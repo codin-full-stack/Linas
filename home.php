@@ -1,14 +1,13 @@
+<?php include ('main.php'); ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Postai</title>
-	<link rel="stylesheet" type="text/css" href="./css/posts.css">
-	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-	<?php include ('main.php')?>
-	<h1>Popular Stories</h1>
+<h1>Naujienos</h1>
 	<div class="posts-list">
 		<a href="" class="post-block">
 			<img src="./assets/images/1naujiena.png">

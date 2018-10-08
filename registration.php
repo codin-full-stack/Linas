@@ -41,6 +41,7 @@
 			<input type="radio" name="gender" value="Moteris" required=""> Moteris 
 		</div>
 			<input class="submit" type="submit" value="Registruotis">
+			<input class="">
 	</form>
 	</div>
 </body>
