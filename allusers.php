@@ -6,7 +6,7 @@
 </head>
 <?php include ('main.php') ?>
 <body>
-	<div class="allusers">
+		<div class="allusers">
 <?php
 echo '<h1>Registruoti vartotojai:</h1>';
 
