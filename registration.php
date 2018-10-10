@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registracija</title>
+	<title>html loginas</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/registration.css">
 </head>
-<?php include ('main.php') ?>
 <body>
-	<div class="registration-wrapper">
-	<form class="registration-form" method="POST" action="registration_action.php">
-		<h2>Registracija</h2>
-		<input class="input" type="text" name="username" placeholder="Vartotojo vardas" required="">
-		<input class="input" type="text" name="email" placeholder="Elektroninis paštas" required="">
-		<input class="input" type="password" name="password" placeholder="Slaptažodis" required="">
-		<input class="input" type="password" name="password_confirm" placeholder="Slaptažodžio patvirtinimas" required="">
-		<label class="emty_label"></label>
-		<input class="input" type="text" name="name" placeholder="Vardas" required="">
-		<input class="input" type="text" name="surname" placeholder="Pavardė" required="">
-		<input class="input" type="text" name="age" placeholder="Amžius" required="">
-		<select class="select" name="city" required="">
+	<div class="wrapper">
+		<div class="logo">
+			<img src="./assets/images/logo.png">
+		</div>
+		<div class="login-wrapper">
+			<div class="tabs-wrapper">
+				<a href="index.php" class="disabled">Login</a>
+				<a href="">Register</a>
+			</div>
+			<form class="form-wrapper" method="POST" action="./actions/registration_action.php">
+				<label>Vartotojo vardas</label>
+				<input type="text" name="username" placeholder="Vartotojo vardas" required="">
+				<label>Elektroninis paštas</label>
+				<input type="text" name="email" placeholder="Elektroninis paštas" required="">
+				<label>Slaptažodis</label>
+				<input type="password" name="password" placeholder="Slaptažodis" required="">
+				<label>Slaptažodžio patvirtinimas</label>
+				<input type="password" name="password_confirm" placeholder="Slaptažodžio patvirtinimas" required="">
+				<label>Vardas</label>
+				<input type="text" name="name" placeholder="Vardas" required="">
+				<label>Pavardė</label>
+				<input type="text" name="surname" placeholder="Pavardė" required="">
+				<label>Amžius</label>
+				<input type="text" name="age" placeholder="Amžius" required="">
+				<label>Miestass</label>
+				<select class="select" name="city" required="">
 			<?php
 			$cities = [
 				'vln' => 'Vilnius',
@@ -34,15 +47,15 @@
 			<?php
 			}
 			?>
-		</select>
-		<label class="reg-label">Lytis:</label>
-		<div class="radio">
-			<input type="radio" name="gender" value="Vyras" required=""> Vyras
-			<input type="radio" name="gender" value="Moteris" required=""> Moteris 
-		</div>
-			<input class="submit" type="submit" value="Registruotis">
-			<input class="">
-	</form>
+			</select>
+			<label>Lytis:</label>
+			<div class="radio">
+				<input type="radio" name="gender" value="Vyras" required=""> Vyras
+				<input type="radio" name="gender" value="Moteris" required=""> Moteris 
+			</div>
+			<button class="reg-submit" type="submit" name="submit" value="Prisijungti">Registruotis</button>
+		</form>
+	</div>
 	</div>
 </body>
 </html>

@@ -1,7 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 body {
 	padding: 0px;
 	margin: 0px;
-	font-family: Helvetica;
+	font-family: monospace;
 	background-color: #F8F8F8;
 }
 .wrapper {
@@ -12,9 +15,12 @@ body {
 	width: 100%;
 	flex-direction: column;
 }
+.logo {
+	width: 100px;
+	margin-bottom: 20px;
+}
 .login-wrapper {
 	padding: 0px;
-	margin: 150px auto 0px;
 	width: 333px;
 	background-color: #FFC300;
 }
@@ -38,7 +44,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-weight: bold;
-	padding: 58px 0px 0px;
+	padding: 58px 0px 30px;
 }
 .form-wrapper label {
 	font-size: 10px;
@@ -49,30 +55,25 @@ body {
 	font-size: 10px;
 	color: #B1B1B1;
   margin: 0px 25px 20px 25px;
-  padding: 10px 0px 15px 15px;
+  padding: 15px 10px;
 	border: none;
 	border-bottom: 1px solid #F5F5F5;
 	border-radius: 10px;
 }
-.signin-wrapper {
-	display: flex;
-	justify-content: space-between;
+.form-wrapper select {
+	font-size: 10px;
+	color: #B1B1B1;
+  margin: 0px 25px 20px 25px;
+  padding: 15px 10px;
+	border: none;
+	border-bottom: 1px solid #F5F5F5;
+	border-radius: 10px;
 }
 .register-wrapper {
 	display: flex;
 	justify-content: flex-end;
 }
-
-.signin-wrapper a {
-	font-size: 12px;
-	color: #6c007d;
-	text-decoration: none;
-	margin: 10px 0px 0px 40px;
-}
-.signin-wrapper a:hover {
-	text-decoration: underline;
-}
-button {
+.reg-submit {
 	background-color: #6c007d;
 	cursor: pointer;
 	border:none; 
@@ -81,10 +82,10 @@ button {
 	color: #FFC300;
 	font-weight: bold;
 	font-size: 12px;
-	margin-right: 25px;
+	margin-left:200px;
 	border-radius: 10px;
 }
-button:hover {
+.reg-submit:hover {
 opacity: 0.8;
 }
 a.disabled {
@@ -102,10 +103,26 @@ a.disabled {
 .social-wrapper a:hover {
 	opacity: 0.9;
 }
+.radio {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	font-size: 10px;
+	color: #6c007d;
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+}
+.error-message {
+	color: red;
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
 img {
 	display: block;
+	width: 100%;
+	height: auto;
 }
-
 .header-wrapper {
 	background-color: #FFC300;
 	margin: 10px 150px 0px;
@@ -131,7 +148,7 @@ img {
 	flex-direction: column;
 }
 .header-login-form label {
-	font-family: cursive;
+	font-family: monospace;
 	font-size: 20px;
 	color: #6c007d;
 	margin-bottom: 5px;
@@ -143,18 +160,6 @@ img {
 	padding: 5px 10px;
 	border:1px solid #6c007d;
 }
-.reg-submit {
-	cursor: pointer;
-	background-color: #6c007d;
-	border: 1px #6c007d;
-	border-radius: 5px;
-	padding: 5px 10px;
-	margin-bottom: 5px;
-	color:#fdff7b;
-}
-.reg-submit:hover {
-	opacity: 0.7;
-}
 .header-login a {
 	font-size: 12px;
 	text-decoration: none;
@@ -165,7 +170,7 @@ img {
 	text-decoration: underline;
 }
 .nav-wrapper {
-	font-family: cursive;
+	font-family: monospace;
 	margin: 0px 100px;
 	display: flex;
 	background-color:#FFC300;
@@ -223,10 +228,6 @@ h1{
 .post-block:nth-child(4n+1) {
 	width: 570px;
 }
-img {
-	width: 100%;
-	height: auto;
-}
 .post-description h2 {
 	font-family: monospace;
 	color: #6c007d;
@@ -238,7 +239,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: cursive;
+	font-family: monospace;
 }
 .allusers th {
 	background-color: #FFC300;

@@ -13,12 +13,6 @@
 				<a href="home.php"><img src="./assets/images/logo.png"></a>
 			</div>
 			<div class="header-login">
-				<form class="header-login-form" method="POST">
-					<label>Prisijunk!</label>
-					<input class="reg-input" type="input" name="email" placeholder="Elektrotinis paštas" required="">
-					<input class="reg-input" type="password" name="password" placeholder="Slaptažodis" required="">
-					<input class="reg-submit" type="submit" name="submit" value="Prisijungti">
-					<?php include ('./actions/login_action.php')?>
 					<?php
 					if (! empty($_SESSION["id"])){
 						$sql = "SELECT * FROM useriai WHERE id = '" . $_SESSION["id"] . "' LIMIT 1" ;
@@ -29,10 +23,7 @@
              }
            }
 					?>
-					<?php echo "<a href ='./actions/logout_action.php'>Logout</a>"?>
-					</form>
-				<a href="">Slaptažodžio priminimas</a>
-				<a href="registration.php">Registruokis</a>				
+					<?php echo "<a href ='./actions/logout_action.php'>Logout</a>"?>	
 			</div>
 		</div>
 	</header>
