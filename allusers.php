@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Visi vartotojai</title>
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-</head>
 <?php include ('main.php') ?>
-<body>
-		<div class="allusers">
+<div class="allusers">
 <?php
 echo '<h1>Registruoti vartotojai:</h1>';
 

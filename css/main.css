@@ -181,7 +181,7 @@ img {
 	flex-grow: 1;
 	text-align: center;
 	text-decoration: none; 
-	border:2px solid #6c007d ;
+	border: 2px solid #6c007d;
 	border-left: none;
 	border-radius: 10px 10px 0px 0px;
 	padding: 15px 0px;
@@ -206,7 +206,8 @@ h1{
 	margin: 50px 0px 50px;
 }
 .posts-list {
-	width: 1200px;
+	max-width: 1200px;
+	width: 90%;
 	margin: 0px auto;
 	display: flex;
 	flex-direction: row;
@@ -214,14 +215,14 @@ h1{
 }
 .posts-list a {
 	text-decoration: none;
+	margin: 0px auto 20px;
+
 }
 .posts-list a:hover {
 	opacity: 0.7;
 } 
 .post-block {
 	background-color: #FFC300;
-	margin-right: 30px;
-	margin-bottom: 30px;
 	width: 270px;
 	height: 415px;
 }
@@ -252,4 +253,8 @@ h1{
 .allusers td {
 	text-align: center;
 	padding: 10px 10px;
+}
+.left-time, .now-time {
+	padding-top: 20px;
+	color: #6c007d;
 }

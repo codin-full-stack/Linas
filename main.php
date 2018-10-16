@@ -5,6 +5,8 @@
 	<title>Mad Lamb</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/mobile.css">
+	<script src="script.js" async=""></script>
 </head>
 <body>
 	<header>
@@ -12,6 +14,8 @@
 			<div class="header-logo">
 				<a href="home.php"><img src="./assets/images/logo.png"></a>
 			</div>
+			<div class="now-time"></div>
+			<div class="left-time"></div>
 			<div class="header-login">
 					<?php
 					if (! empty($_SESSION["id"])){
@@ -34,8 +38,7 @@
 			<a href="">Rezultatai</a>
 			<a href="">Sezonai</a>
 			<a href="">Kontaktai</a>
+			<a href="html">HTML'ai</a>
 			<a href="allusers.php">Visi užsiregistravę vartotojai</a>
 		</div>
 	</nav>
-</body>
-</html>

@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
 <?php
 if (! empty($_POST)) {
   $sql = "SELECT * FROM useriai WHERE email = '" . $_POST['email'] . "' LIMIT 1" ;

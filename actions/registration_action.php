@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="./css/registration.css">
-</head>
 <?php include "main.php" ?>
 <div class="congrats-text">
 <?php
