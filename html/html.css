@@ -1,5 +1,5 @@
 body {
-	background-color: #C5D3F6;
+	background-color: #FFC300;
 	margin: 0px;
 	padding: 0px;
 }
@@ -174,3 +174,5 @@ tr:last-child td:last-child {
 tbody, tr:last-child td {
 	border: none;
 }
+
+/*SKAIČIUOTUVAS*/ 

@@ -9,14 +9,14 @@
 <body>
 	<div class="wrapper">
 		<div class="logo">
-			<img src="./assets/images/logo.png">
+			<img src="https://www.codeacademy.lt/wp-content/uploads/2017/05/logo.png">
 		</div>
 		<div class="login-wrapper">
 			<div class="tabs-wrapper">
 				<a href="index.php" class="disabled">Login</a>
 				<a href="">Register</a>
 			</div>
-			<form class="form-wrapper" method="POST" action="./actions/registration_action.php">
+			<form class="form-wrapper" method="POST" action="registration_action.php">
 				<label>Vartotojo vardas</label>
 				<input type="text" name="username" placeholder="Vartotojo vardas" required="">
 				<label>Elektroninis paštas</label>

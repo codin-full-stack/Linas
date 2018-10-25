@@ -1,0 +1,82 @@
+*:focus {
+    			outline: none;
+    			box-sizing: border-box;
+			}
+
+body {
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Desktop-autumn-fall-leaves-wallpapers-hd.jpg);
+	align-items: center;
+}
+.calculator {
+	margin: 100px auto 20px;
+	width: 350px;
+	height: 480px;
+	border-collapse: collapse;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.calc-header {
+	border-radius: 15px 15px 0px 0px;
+	height:120px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	opacity: 0.7
+	border-radius: 15px;
+}
+.icons {
+	height: 30px;
+	margin-top: 4px;
+	margin-left: 8px;
+}
+.textview {
+	height: 90px;
+	background-color: transparent;
+	border: 0px solid;
+ 	color: #CCC;
+ 	text-align: right;
+ 	font-size: 50px;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ 	font-family: Roboto; 
+}
+.calc-content {
+	width: 350px;
+	height: 360px;
+	background-color: #50597C;
+	opacity: 0.7;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.calc-content button {
+	width: 84px;
+	height: 73px;
+  margin: 0px;
+  background: transparent;
+  font-family: Roboto;    
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.icons button {
+	height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  border: none;
+  margin: 4px;
+  cursor: pointer;
+}
+.green {
+	background-color: #29CA41;
+}
+.yellow {
+	background-color:#FFBE2F;
+}
+.red {
+	background-color: #FF554E;
+}
+button:hover {
+	opacity: 0.8;
+}

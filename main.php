@@ -1,3 +1,4 @@
+
 <?php require_once "config.php" ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,7 @@
 	<header>
 		<div class="header-wrapper">
 			<div class="header-logo">
-				<a href="home.php"><img src="./assets/images/logo.png"></a>
+				<a href="home.php"><img src="https://www.codeacademy.lt/wp-content/uploads/2017/05/logo.png"></a>
 			</div>
 			<div class="now-time"></div>
 			<div class="left-time"></div>
@@ -23,7 +24,7 @@
             $result = mysqli_query($conn, $sql);
             $row = mysqli_fetch_assoc($result);                
             if(isset($_SESSION["id"])){
-             	echo "<br>" . "Labas, " . $row['username'];
+             	echo "<br>" . "Labas, " . "<a href ='profile.php'> <strong>" . $row['username'] . "</strong></a>" ;
              }
            }
 					?>
@@ -33,12 +34,12 @@
 	</header>
 	<nav>
 		<div class="nav-wrapper">
-			<a href="">Komanda</a>
-			<a href="">Tvarkaraštis</a>
-			<a href="">Rezultatai</a>
-			<a href="">Sezonai</a>
-			<a href="">Kontaktai</a>
-			<a href="html">HTML'ai</a>
-			<a href="allusers.php">Visi užsiregistravę vartotojai</a>
+			<?php include ('menu.php') ?>
+			<!-- <a href="html/calculator.html">Skaičiuotuvas</a>
+  		<a href="html/table.html">Lentelė</a>
+  		<a href="html/login.html">Loginas</a>
+  		<a href="html/registration.html">Registracija</a>
+  		<a href="html/portfolio">Portfolio</a>
+  		<a href="allusers.php">Visi užsiregistravę vartotojai</a> -->
 		</div>
 	</nav>

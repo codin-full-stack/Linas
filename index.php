@@ -10,7 +10,7 @@
 <body>
 	<div class="wrapper">
 		<div class="logo">
-			<img src="./assets/images/logo.png">
+			<img src="https://www.codeacademy.lt/wp-content/uploads/2017/05/logo.png">
 		</div>
 		<div class="login-wrapper">
 			<div class="tabs-wrapper">

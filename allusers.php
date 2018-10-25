@@ -1,7 +1,9 @@
 <?php include ('main.php') ?>
-<div class="allusers">
 <?php
 echo '<h1>Registruoti vartotojai:</h1>';
+?>
+<div class="table">
+<?php
 
 $sql = "SELECT * FROM useriai";
 $result = mysqli_query($conn, $sql);
@@ -37,5 +39,4 @@ $result = mysqli_query($conn, $sql);
 	echo "</table>";
 ?>
 </div>
-</body>
-</html>
+<?php include ("footer.php") ?>

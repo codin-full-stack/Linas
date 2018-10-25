@@ -1,4 +1,4 @@
-<?php include "main.php" ?>
+<?php include ("main.php") ?>
 <div class="congrats-text">
 <?php
 	if (isset($_POST) & !empty($_POST)){
@@ -24,3 +24,4 @@
 	}
 ?>
 </div>
+<?php include ("footer.php") ?>

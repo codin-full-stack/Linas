@@ -1,5 +1,5 @@
 <?php include ('main.php'); ?>
-<h1>Naujienos</h1>
+<h1 class="new-title">Naujienos</h1>
 	<div class="posts-list">
 		<a href="" class="post-block">
 			<img src="./assets/images/1naujiena.png">
@@ -56,5 +56,4 @@
 			</div>
 		</a>
 	</div>
-</body>
-</html>
+<?php include ('footer.php'); ?>
